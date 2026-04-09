@@ -19,6 +19,7 @@
 // (Rights in Technical Data and Computer Software), as applicable.
 
 using Autodesk.Revit.UI;
+using Nice3point.Revit.Extensions.UI;
 using RevitLookup.Commands;
 using RevitLookup.Core;
 
