@@ -120,11 +120,11 @@
     <Reference Include="PresentationCore">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2017\RevitAPI.dll</HintPath>
+    <Reference Include="RevitAPI, Version=17.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2017.0.0\lib\net45\RevitAPI.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPIUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2017\RevitAPIUI.dll</HintPath>
+    <Reference Include="RevitAPIUI, Version=17.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2017.0.0\lib\net45\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
