@@ -84,7 +84,6 @@ namespace RevitLookup
       optionsBtn.AddPushButton( new PushButtonData( "Snoop Active View...", "Snoop Active View...", ExecutingAssemblyPath, "RevitLookup.CmdSnoopActiveView" ) );
       optionsBtn.AddPushButton( new PushButtonData( "Snoop Application...", "Snoop Application...", ExecutingAssemblyPath, "RevitLookup.CmdSnoopApp" ) );
       optionsBtn.AddPushButton( new PushButtonData( "Search and Snoop...", "Search and Snoop...", ExecutingAssemblyPath, "RevitLookup.CmdSearchBy" ) );
-      optionsBtn.AddPushButton( new PushButtonData( "Test Framework...", "Test Framework...", ExecutingAssemblyPath, "RevitLookup.CmdTestShell" ) );
     }
 
     private void AddAppDocEvents( ControlledApplication app )

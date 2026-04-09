@@ -124,9 +124,8 @@
     <Reference Include="PresentationCore">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="RevitAPI, Version=20.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2020.0.0\lib\net47\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC">
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIIFC.dll</HintPath>
@@ -136,9 +135,8 @@
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIMacros.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="RevitAPIUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="RevitAPIUI, Version=20.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2020.0.0\lib\net47\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIUIMacros">
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUIMacros.dll</HintPath>
@@ -434,6 +432,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
