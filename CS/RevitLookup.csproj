@@ -63,17 +63,26 @@
     <OutputPath>bin\2019\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdWindows">
-      <HintPath>C:\Program Files\Autodesk\Revit $(Configuration)\AdWindows.dll</HintPath>
+    <Reference Include="AdWindows, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2021.0.0\lib\net48\AdWindows.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit $(Configuration)\RevitAPI.dll</HintPath>
+    <Reference Include="RevitAddInUtility, Version=21.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2021.0.0\lib\net48\RevitAddInUtility.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPIIFC">
-      <HintPath>C:\Program Files\Autodesk\Revit $(Configuration)\RevitAPIIFC.dll</HintPath>
+    <Reference Include="RevitAPI, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2021.0.0\lib\net48\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIBrowserUtils, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2021.0.0\lib\net48\RevitAPIBrowserUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIFoundation, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2021.0.0\lib\net48\RevitAPIFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIIFC, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\source\packages\Autodesk.Revit.SDK.2021.0.0\lib\net48\RevitAPIIFC.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIMacros">
       <HintPath>C:\Program Files\Autodesk\Revit $(Configuration)\RevitAPIMacros.dll</HintPath>
