@@ -47,6 +47,9 @@
     <EmbeddedResource Include="Resources\RLookup-16.png" />
     <EmbeddedResource Include="Resources\RLookup-32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autodesk.Revit.SDK" Version="2022.0.2.392" />
+  </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="rem copy Z:\a\src\rvt\RevitLookup\CS\bin\Debug\RevitLookup.dll C:\Users\jta\AppData\Roaming\Autodesk\Revit\Addins\2022&#xD;&#xA;rem copy Z:\a\src\rvt\RevitLookup\CS\RevitLookup.addin C:\Users\jta\AppData\Roaming\Autodesk\Revit\Addins\2022" />
   </Target>
